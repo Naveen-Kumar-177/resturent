@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(Images/bg.jpg.jpeg);
+}
+      /* -----nav bar---- */
+.navbar {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom:1px solid gray;
+}
+h1{
+    color: white;
+}
+.navbar span{
+    color: orange;
+    text-decoration: underline;
+}
+ul li{
+    list-style-type:none;
+    display: inline-block;
+    color: white;
+    padding: 4px 20px;
+}
+ul li:hover{
+    color: yellow;
+    cursor: pointer;
+    text-decoration: underline;
+}
+input{
+    padding: 5px 13px;
+    border-radius:5px ;
+    outline: none;
+    border: 2px solid orange;
+}
+ button{
+    background: orange;
+    color: white;
+    border-radius: 2px;
+    padding: 4px 20px;
+}
+     /* ------Hero-Section----- */
+ .hero{
+    width: 80%;
+    margin: 40px auto;
+    height: 80vh;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     border: 1px solid white;
+    }
+.hero-left{
+     width: 60%;
+     padding: 0 60px;
+}
+.hero left h1{
+    font-size:30px;
+}
+.hero-left h1 span{
+    color: orange;
+    font-size: 40px;
+}
+.hero-left p{
+    padding: 10px 0px;
+    font-size: 14px;
+    color: white;
+}
+.hero-left button{
+    padding: 7px 20px;
+    background-color: orange;
+    border-radius: 3px;
+    border: none;
+    margin: 20px 0;
+    box-shadow: 0 0 5px white;
+}
+.hero-right{
+    width: 40%;
+}
+.hero-right img{
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 0 15px white;
+}
+    /* -----items-list----- */
+.items{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background-color: black;
+   padding: 40px;
+}
+.items h2{
+    font-size: 36px;
+    text-shadow: 0 0 5px orange;
+}
+.list-items{
+    display:flex;
+    justify-content: space-between;
+    width: 76%;
+    margin: auto;
+    flex-wrap: wrap;
+}
+.card{
+    width: 200px;
+    border-radius: 8px;
+    box-shadow: 0 0 6px white;
+    margin: 20px;
+}
+.card img{
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+.details{
+    padding: 10px ;
+    color: white;
+}
+.details p{
+    color: orange;
+}
+   /* -------footer------- */
+.footer{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    padding: 40px;
+    align-items: center;
+ }
+.footer-left{
+    width: 60%;
+}
+p{
+    color: white;
+}
+span{
+    color: orange;
+}
+.footer-right{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+.lists h3{
+    color: orange;
+    font-size: 30px;
+}
+.lists ul li{
+    padding: 10px;
+    list-style: none;
+    display: block;
+}
